@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, CallbackContext
 
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")  # Mengambil token dari environment variable
+TOKEN = os.getenv("7773033342:AAGRCYkQufSs5zxrAxzvSJoyysGXwcR8v2o")  # Mengambil token dari environment variable
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('Halo! Bot Telegram Railway berjalan!')
